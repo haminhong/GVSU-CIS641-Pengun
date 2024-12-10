@@ -4,7 +4,7 @@
 
 # Introduction
 
-The main goal of this project is to create a generative AI system that can generate new guitar chords and original music. Using Variational Autoencoders (VAEs), we’ll train the model to pick up on musical patterns, focusing on chord progressions and overall structure. The aim here is to provide a tool that helps users come up with new musical ideas, where the system acts more as a creative partner, not a replacement.
+The main goal of this project is to create a generative AI system that can generate music. Using Variational Autoencoders (VAEs), we’ll train the model to pick up on musical patterns, focusing on chord progressions and overall structure. The aim here is to provide a tool that helps users come up with new musical ideas, where the system acts more as a creative partner, not a replacement.
 
 # Anticipated Technologies
 
