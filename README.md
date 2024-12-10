@@ -22,7 +22,7 @@ The goal of this project is to develop a generative AI system capable of produci
   - [PyTorch](https://pytorch.org/)
   - [PrettyMIDI](https://github.com/craffel/pretty-midi)
   - [Matplotlib](https://matplotlib.org/) (optional, for visualizations)
-  - [Jupyter Notebook](https://jupyter.org/) (optional, for interactive development)
+  - [Jupyter Notebook](https://jupyter.org/) 
 
   use the Requirements.txt to install dependencies. 
 
