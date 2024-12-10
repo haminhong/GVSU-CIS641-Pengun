@@ -26,6 +26,10 @@
     h2, h3 {
       color: #61dafb;
     }
+    a {
+      color: #61dafb;
+      text-decoration: none;
+    }
     footer {
       text-align: center;
       padding: 10px;
@@ -64,16 +68,24 @@
     <p>Explore our project artifacts, documentation, and sample audio files below.</p>
   </div>
 
-  <h2>How the Music Changes Through the Model</h2>
-  <p>The sample audio files and their corresponding visualizations demonstrate the transformative capabilities of our music generation model. Each pair of audio files and images showcases the original input and the generated output after passing through the Variational Autoencoder (VAE) model.</p>
+  <h2>Project Overview</h2>
+  <p>This project uses Variational Autoencoders (VAEs) to generate unique musical compositions. Users can customize input parameters like seed melodies, genre, and tempo to influence the generated outputs. The system offers real-time previews and export options for MIDI or audio files.</p>
 
-  <h3>Visual Representation of Music Data</h3>
-  <p>The accompanying images provide a visual representation of the musical data in both its original and transformed states. These visualizations highlight key aspects of the music, such as:</p>
+  <h2>Project Artifacts and Documentation</h2>
   <ul>
-    <li><strong>Note Distribution:</strong> The spread and density of musical notes across time.</li>
-    <li><strong>Pitch Variations:</strong> Changes in pitch and intervals between notes.</li>
-    <li><strong>Rhythmic Patterns:</strong> Visual cues for note durations and rhythmic shifts.</li>
-    <li><strong>Structural Changes:</strong> Differences in the arrangement and flow of the music after transformation.</li>
+    <li><a href="./docs/requirements.md">Software Requirements Specification</a></li>
+    <li><a href="./docs/proposal.md">Proposal</a></li>
+  </ul>
+
+  <h2>Artifacts Directory</h2>
+  <ul>
+    <li><a href="https://github.com/haminhong/GVSU-CIS641-Pengun/blob/master/artifacts/CRC.png">CRC Diagram</a></li>
+    <li><a href="https://github.com/haminhong/GVSU-CIS641-Pengun/blob/master/artifacts/Sequence%20Diagram.pdf">Sequence Diagram (PDF)</a></li>
+    <li><a href="https://github.com/haminhong/GVSU-CIS641-Pengun/blob/master/artifacts/State%20Machine%20Diagram.png">State Machine Diagram</a></li>
+    <li><a href="https://github.com/haminhong/GVSU-CIS641-Pengun/blob/master/artifacts/activity%20Diagram.png">Activity Diagram</a></li>
+    <li><a href="https://github.com/haminhong/GVSU-CIS641-Pengun/blob/master/artifacts/class%20Diagram.png">Class Diagram</a></li>
+    <li><a href="https://github.com/haminhong/GVSU-CIS641-Pengun/blob/master/artifacts/object%20Diagram.png">Object Diagram</a></li>
+    <li><a href="https://github.com/haminhong/GVSU-CIS641-Pengun/blob/master/artifacts/use%20case%20Diagram.png">Use Case Diagram</a></li>
   </ul>
 
   <h2>Sample Audio Files and Visualizations</h2>
@@ -95,22 +107,6 @@
       <img src="./website/img_midi_18_orig.png" alt="Visualization for 18_orig.mp3">
     </div>
     <div class="audio-player">
-      <h3>19.mid</h3>
-      <audio controls>
-        <source src="./website/19.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-      <img src="./website/img_midi_19.png" alt="Visualization for 19.mp3">
-    </div>
-    <div class="audio-player">
-      <h3>19_orig.mid</h3>
-      <audio controls>
-        <source src="./website/19_orig.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-      <img src="./website/img_midi_19_orig.png" alt="Visualization for 19_orig.mp3">
-    </div>
-    <div class="audio-player">
       <h3>20.mid</h3>
       <audio controls>
         <source src="./website/20.mp3" type="audio/mpeg">
@@ -125,22 +121,6 @@
         Your browser does not support the audio element.
       </audio>
       <img src="./website/img_midi_20_orig.png" alt="Visualization for 20_orig.mp3">
-    </div>
-    <div class="audio-player">
-      <h3>21.mid</h3>
-      <audio controls>
-        <source src="./website/21.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-      <img src="./website/img_midi_21.png" alt="Visualization for 21.mp3">
-    </div>
-    <div class="audio-player">
-      <h3>21_orig.mid</h3>
-      <audio controls>
-        <source src="./website/21_orig.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-      <img src="./website/img_midi_21_orig.png" alt="Visualization for 21_orig.mp3">
     </div>
   </div>
 
