@@ -23,7 +23,7 @@
       margin: auto;
       padding: 20px;
     }
-    h2 {
+    h2, h3 {
       color: #61dafb;
     }
     a {
@@ -45,6 +45,11 @@
       background-color: #222;
       border-radius: 8px;
     }
+    .midi-samples img {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
@@ -56,12 +61,12 @@
 <section>
   <div class="intro">
     <h2>Introduction</h2>
-    <p>Welcome to the <strong>Pengun - Music Generation Project</strong>. This project focuses on leveraging Variational Autoencoders (VAEs) to create unique, customizable music. It is designed to provide users with a creative tool for generating musical compositions influenced by adjustable parameters like seed melodies, genres, and tempo. This project aim to bring technology and music together, fostering creativity and innovation in the musical domain.</p>
-    <p>Explore our project artifacts, documentation, and source code through the links below.</p>
+    <p>Welcome to the <strong>Pengun - Music Generation Project</strong>. This project focuses on leveraging Variational Autoencoders (VAEs) to create unique, customizable music. It is designed to provide users with a creative tool for generating musical compositions influenced by adjustable parameters like seed melodies, genres, and tempo. We aim to bring technology and music together, fostering creativity and innovation in the musical domain.</p>
+    <p>Explore our project artifacts, documentation, and sample MIDI files below.</p>
   </div>
 
   <h2>Project Overview</h2>
-  <p>This project uses Variational Autoencoders (VAEs) to generate unique musical compositions. Users can customize the model to influence the generated outputs. The system offers real-time previews and export options for MIDI or audio files.</p>
+  <p>This project uses Variational Autoencoders (VAEs) to generate unique musical compositions. Users can customize input parameters like seed melodies, genre, and tempo to influence the generated outputs. The system offers real-time previews and export options for MIDI or audio files.</p>
 
   <h2>Project Artifacts and Documentation</h2>
   <ul>
@@ -79,6 +84,60 @@
     <li><a href="https://github.com/haminhong/GVSU-CIS641-Pengun/blob/master/artifacts/object%20Diagram.png">Object Diagram</a></li>
     <li><a href="https://github.com/haminhong/GVSU-CIS641-Pengun/blob/master/artifacts/use%20case%20Diagram.png">Use Case Diagram</a></li>
   </ul>
+
+  <h2>How the Music Changes Through the Model</h2>
+  <p>The sample MIDI files and their corresponding visualizations demonstrate the transformative capabilities of our music generation model. Each pair of MIDI files and images showcases the original input and the generated output after passing through the Variational Autoencoder (VAE) model.</p>
+
+  <p>The original MIDI files (e.g., <a href="./website/18_orig.mid">18_orig.mid</a>) represent the seed melodies or raw musical data that serve as inputs to the system. These inputs are processed through the VAE, which analyzes the input's features, such as pitch, rhythm, and harmony, and applies latent transformations to generate new musical compositions. The generated outputs (e.g., <a href="./website/18.mid">18.mid</a>) reflect the creative changes introduced by the model, such as variations in melody structure, tempo, and tonal dynamics.</p>
+
+  <h3>Visual Representation of Music Data</h3>
+  <p>The accompanying images provide a visual representation of the musical data in both its original and transformed states. These visualizations highlight key aspects of the music, such as:</p>
+  <ul>
+    <li><strong>Note Distribution:</strong> The spread and density of musical notes across time.</li>
+    <li><strong>Pitch Variations:</strong> Changes in pitch and intervals between notes.</li>
+    <li><strong>Rhythmic Patterns:</strong> Visual cues for note durations and rhythmic shifts.</li>
+    <li><strong>Structural Changes:</strong> Differences in the arrangement and flow of the music after transformation.</li>
+  </ul>
+
+  <p>By analyzing these visualizations, users can gain insights into how the model interprets and transforms musical features. This bridges the gap between the numerical data behind the music and the auditory experience it creates, providing a deeper understanding of the generative process.</p>
+
+  <h2>Sample MIDI Files and Visualizations</h2>
+  <div class="midi-samples">
+    <ul>
+      <li>
+        <a href="./website/18.mid">18.mid</a>
+        <img src="./website/img_midi_18.png" alt="Visualization for 18.mid">
+      </li>
+      <li>
+        <a href="./website/18_orig.mid">18_orig.mid</a>
+        <img src="./website/img_midi_18_orig.png" alt="Visualization for 18_orig.mid">
+      </li>
+      <li>
+        <a href="./website/19.mid">19.mid</a>
+        <img src="./website/img_midi_19.png" alt="Visualization for 19.mid">
+      </li>
+      <li>
+        <a href="./website/19_orig.mid">19_orig.mid</a>
+        <img src="./website/img_midi_19_orig.png" alt="Visualization for 19_orig.mid">
+      </li>
+      <li>
+        <a href="./website/20.mid">20.mid</a>
+        <img src="./website/img_midi_20.png" alt="Visualization for 20.mid">
+      </li>
+      <li>
+        <a href="./website/20_orig.mid">20_orig.mid</a>
+        <img src="./website/img_midi_20_orig.png" alt="Visualization for 20_orig.mid">
+      </li>
+      <li>
+        <a href="./website/21.mid">21.mid</a>
+        <img src="./website/img_midi_21.png" alt="Visualization for 21.mid">
+      </li>
+      <li>
+        <a href="./website/21_orig.mid">21_orig.mid</a>
+        <img src="./website/img_midi_21_orig.png" alt="Visualization for 21_orig.mid">
+      </li>
+    </ul>
+  </div>
 
   <h2>Team GitHub Repository</h2>
   <p>All project source code and artifacts are available on <a href="https://github.com/haminhong/GVSU-CIS641-Pengun">GitHub</a>.</p>
