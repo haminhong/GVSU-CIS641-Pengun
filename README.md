@@ -42,7 +42,7 @@ The goal of this project is to develop a generative AI system capable of produci
     https://www.kaggle.com/datasets/imsparsh/lakh-midi-clean
     extract the files into clean_midi folder under src.
 
-### 2. Get the dataset. 
+### 3. Follow the notebooks in order 
 
     After cloning the repository, follow the notebooks in order of 
         Load Instruments
