@@ -1,0 +1,6 @@
+numpy
+pandas
+torch
+pretty_midi
+matplotlib
+jupyter
