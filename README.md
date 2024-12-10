@@ -32,7 +32,7 @@ The goal of this project is to develop a generative AI system capable of produci
 ## Installation
 
 
-### 1. Clone the Repository (the master branch, not the main one)
+### 1. Clone the Repository
 
     git clone https://github.com/haminhong/GVSU-CIS641-Pengun.git
 
